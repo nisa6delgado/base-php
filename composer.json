@@ -60,6 +60,7 @@
         ],
         "post-install-cmd": [
             "composer dump-autoload --optimize",
+            "php base install",
             "php base migrate"
         ]
     },
